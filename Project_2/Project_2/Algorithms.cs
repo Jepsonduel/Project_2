@@ -59,7 +59,7 @@ namespace Project_2
             int avgTAT = (done.Sum(p => p.turnaroundTime)) / done.Count;
             int avgWT = (done.Sum((p) => p.waitingTime)) / done.Count;
             float cpuUtilization = ((float)totalBT / totalTime) * 100;
-            float throughput = (float)done.Count / totalTime;
+            float throughput = ((float)done.Count / totalTime);
 
             Console.WriteLine("SRTF Results");
             Console.WriteLine("Average Turnaround Time: {0}\nAverage Wait Time: {1}\nCPU Utilization: {2:F2}%\nThroughput (Processes per Second): {3:F4}", avgTAT, avgWT, cpuUtilization, throughput);
