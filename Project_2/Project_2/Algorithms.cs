@@ -7,7 +7,7 @@ using Project_2;
 
 namespace Project_2
 {
-    internal class Algorithms
+    class Algorithms
     {
         /*
              This method schedules processes using Shortest Remaining Time First algorithm

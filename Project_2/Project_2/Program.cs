@@ -19,11 +19,6 @@ namespace Project_2
                 new PCB(3, arrivalTime: 2,  burstTime: 9,  remainingTime: 9,  priority: 3, startTime: 0, endTime: 0, ready: false),
                 new PCB(4, arrivalTime: 3,  burstTime: 5,  remainingTime: 5,  priority: 2, startTime: 0, endTime: 0, ready: false),
                 new PCB(5, arrivalTime: 6,  burstTime: 2,  remainingTime: 2,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(6, arrivalTime: 7,  burstTime: 6,  remainingTime: 6,  priority: 3, startTime: 0, endTime: 0, ready: false),
-                //new PCB(7, arrivalTime: 10, burstTime: 3,  remainingTime: 3,  priority: 2, startTime: 0, endTime: 0, ready: false),
-                //new PCB(8, arrivalTime: 12, burstTime: 7,  remainingTime: 7,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(9, arrivalTime: 13, burstTime: 1,  remainingTime: 1,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(10, arrivalTime: 15, burstTime: 4, remainingTime: 4, priority: 2, startTime: 0, endTime: 0, ready: false)
             };
 
             a.SRTF(processes);
@@ -36,11 +31,6 @@ namespace Project_2
                 new PCB(3, arrivalTime: 2,  burstTime: 9,  remainingTime: 9,  priority: 3, startTime: 0, endTime: 0, ready: false),
                 new PCB(4, arrivalTime: 3,  burstTime: 5,  remainingTime: 5,  priority: 2, startTime: 0, endTime: 0, ready: false),
                 new PCB(5, arrivalTime: 6,  burstTime: 2,  remainingTime: 2,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(6, arrivalTime: 7,  burstTime: 6,  remainingTime: 6,  priority: 3, startTime: 0, endTime: 0, ready: false),
-                //new PCB(7, arrivalTime: 10, burstTime: 3,  remainingTime: 3,  priority: 2, startTime: 0, endTime: 0, ready: false),
-                //new PCB(8, arrivalTime: 12, burstTime: 7,  remainingTime: 7,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(9, arrivalTime: 13, burstTime: 1,  remainingTime: 1,  priority: 1, startTime: 0, endTime: 0, ready: false),
-                //new PCB(10, arrivalTime: 15, burstTime: 4, remainingTime: 4, priority: 2, startTime: 0, endTime: 0, ready: false)
             };
 
             a.MLFQ(processes);

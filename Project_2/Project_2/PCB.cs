@@ -4,7 +4,7 @@ using Project_2;
 
 namespace Project_2
 {
-    internal class PCB
+    class PCB
     {
         public int ID { get; set; }
         public int arrivalTime { get; set; }
