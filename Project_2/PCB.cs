@@ -1,7 +1,5 @@
 ﻿
-using Project_2;
 // Process control block
-
 namespace Project_2
 {
     class PCB

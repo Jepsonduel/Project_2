@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Project_2;
 
 namespace Project_2
 {
-    internal class Program
+    class Program
     {
         public static void Main(string[] args)
         {
